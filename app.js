@@ -59,7 +59,7 @@ const arraySay = ['Que dirais-tu d\'une nouvelle maison? (James)',
 
 
     if (message.content === "!say") {
-        message.reply(arraySay[Math.floor(Math.random()*46)])
+        message.reply(arraySay[Math.floor(Math.random() * arraySay.length)])
     }
 })
 
